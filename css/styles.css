@@ -6,6 +6,9 @@ p {
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     -webkit-padding-start: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 a { text-decoration: none; }
@@ -26,7 +29,9 @@ header {
 
 header h1 {
     font-size: 45px;
+    color: #3d5ba4;
     background: -webkit-linear-gradient( #6a73b6, #39579b );
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -114,7 +119,8 @@ main {
     line-height: 34px;
     border-radius: 15px;
     border: 5px solid #fff;
-    font-family: arial narrow;
+    font-family: "Arial Narrow", "Arial", sans-serif;
+    font-stretch: condensed;
     text-shadow: 1px 1px #2f559f;
     box-shadow: inset 0 4px #2e549f;
     padding-top: 16px;
@@ -281,5 +287,13 @@ copy {
 .social a {
     margin-left: 17px;
 }
-    
+
+#carousel img {
+    display: block;
+    float: left;
+    border: none;
+    position: relative;
+}
+
+
     
