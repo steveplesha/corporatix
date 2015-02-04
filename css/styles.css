@@ -127,6 +127,10 @@ main {
     line-height: 22px;
 }
 
+.cta-button:hover { 
+    box-shadow: 2px 2px 5px #000; 
+}
+
 .cta-button img {
     margin-top: 14px;
     margin-right: 20px;
@@ -178,6 +182,10 @@ main {
     padding: 5px 16px 5px 16px;
 }  
 
+.service-item button:hover { 
+    background: linear-gradient( #fefefe, #7F92B8 ); 
+}
+
 .services { padding-top: 37px; }
 
 .services div:last-child { margin-right: 0; }
@@ -188,8 +196,6 @@ main {
     display: block;
     margin: 0 auto 20px auto;
 }
-
-/* .info:nth-child(odd) { float: left; } */
 
 .info-item-container {
     width: 493px;
